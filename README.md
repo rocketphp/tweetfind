@@ -9,8 +9,8 @@ Requirements: PHP 5.5+, Apache web server, Elasticsearch
 
 ## Assets
 
-Logo Font - Londrina Shadow: https://www.google.com/fonts
-Logo Image: http://www.iconarchive.com/show/vector-twitter-icons-by-iconshock/twitter-plane-brown-icon.html
+1. Logo Font - Londrina Shadow: https://www.google.com/fonts
+2. Logo Image: http://www.iconarchive.com/show/vector-twitter-icons-by-iconshock/twitter-plane-brown-icon.html
 
 ## Quick Start
 
