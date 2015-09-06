@@ -1,0 +1,29 @@
+/** 
+ * Search Form
+ *
+ */
+#search-form{
+    margin-top: 20px;
+    form{
+        margin-top: 30px;
+        border: 1px solid #BBB;
+        border-radius: 0.5em;
+        padding: 30px 30px;
+        #loadingimg{
+            display: none;
+            font-size: 0.8em;
+            font-weight: bold;
+            color: #888;
+        }
+        .view-all{
+            color: #777;
+            a{
+                font-size: 0.8em;
+                color: #777
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
