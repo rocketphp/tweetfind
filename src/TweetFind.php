@@ -82,7 +82,9 @@ implements TweetFindInterface
             $this->extract();
         $this->nest = new TweetNest(
             $this->_config['elasticsearch_host'], 
-            $this->_dir
+            $this->_dir,
+            $this->_config['elasticsearch_index'],
+            $this->_config['elasticsearch_type']
         );
     } 
 

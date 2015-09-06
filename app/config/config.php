@@ -4,7 +4,7 @@ return array(
     'github_link'         => 'https://github.com/rocketphp/tweetfind',
     'tweet_zip'           => dirname(__DIR__) . DIRECTORY_SEPARATOR . 'Resources' . DIRECTORY_SEPARATOR . 'tweet_files.zip',
     'elasticsearch_host'  => 'localhost:9200',
-    'hostname'              => '127.0.0.1:8888',
-    'domain'              => 'localhost.tweetfind',
+    'elasticsearch_index' => 'tweetfind',
+    'elasticsearch_type'  => 'tweet',
     'tpl_dir'             => dirname(dirname(__DIR__)) . DIRECTORY_SEPARATOR . 'src' . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SEPARATOR
 );
