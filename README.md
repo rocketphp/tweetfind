@@ -5,7 +5,11 @@ TweetFind
 
 Web application that searches tweets by text and location.
 
-Requirements: PHP 5.5+, Apache web server, Elasticsearch
+Requirements: 
+
+1. PHP 5.5+
+2. Apache web server
+3. Elasticsearch
 
 ## Assets
 
@@ -20,5 +24,5 @@ Requirements: PHP 5.5+, Apache web server, Elasticsearch
 3. Clear tweets from Elasticsearch: http://127.0.0.1:8888/api/clear
 4. Extract zip file: http://127.0.0.1:8888/api/extract[?f=tweet_files.zip]
 
-Resources
+## Resources
 1. Tweet files zip location: /app/Resources/
