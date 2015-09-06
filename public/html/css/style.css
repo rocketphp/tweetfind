@@ -1,0 +1,128 @@
+/**
+ * Typography
+ *
+ */
+html {
+  background: transparent;
+}
+
+/** 
+ * Picture
+ *
+ */
+#picture .logo {
+  margin: 15px 0 0;
+  text-align: center;
+}
+#picture h3,
+#picture p {
+  margin: 0;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-align: left;
+}
+#picture h3 {
+  display: inline-block;
+  margin: 0 0 5px;
+  padding: 2px 5px;
+  background: #666;
+  border-radius: 6px;
+  padding: 2px 3px;
+  color: #FEFEFE;
+}
+#picture p {
+  color: #666;
+}
+
+/** 
+ * Search Form
+ *
+ */
+#search-form {
+  margin-top: 20px;
+}
+#search-form form {
+  margin-top: 30px;
+  border: 1px solid #BBB;
+  border-radius: 0.5em;
+  padding: 30px 30px;
+}
+#search-form form #loadingimg {
+  display: none;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #888;
+}
+#search-form form .view-all {
+  color: #777;
+}
+#search-form form .view-all a {
+  font-size: 0.8em;
+  color: #777;
+}
+#search-form form .view-all a:hover {
+  text-decoration: underline;
+}
+
+/** 
+ * Search Results
+ *
+ */
+#search-results {
+  display: none;
+  margin-top: 20px;
+}
+#search-results h3 {
+  font-size: 1em;
+  font-weight: bold;
+}
+#search-results #search-result {
+  border: 1px solid #999;
+  border-radius: 8px;
+  padding: 20px 30px;
+  min-height: 100px;
+  max-height: 500px;
+  overflow: scroll;
+}
+
+/** 
+ * Header
+ *
+ */
+#header .logo-small {
+  text-align: center;
+}
+#header h1 {
+  font-family: 'Londrina Shadow', cursive, 'Arial';
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-top: 40px;
+}
+#header h2 {
+  margin: 0;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-align: center;
+  color: #888;
+}
+
+/** 
+ * Footer
+ *
+ */
+div#footer {
+  margin-top: 60px;
+  padding: 40px 0 50px;
+  background: #EAEAEA;
+  border-top: 1px solid #AAA;
+}
+
+div#footer p {
+  font-size: 0.8em;
+}
+
+/** 
+ * Main Content
+ *
+ */
