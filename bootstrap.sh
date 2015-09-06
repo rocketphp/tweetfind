@@ -49,7 +49,7 @@ curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/loca
 
 # Install Java
 echo -e "\n--- Installing Java 1.7.0 ---\n"
-sudo yum install java-1.7.0-openjdk.i686 -y 
+sudo yum install java-1.7.0-openjdk* -y 
 
 # Install Elasticsearch
 echo -e "\n--- Updating Yum Repository for Elasticsearch ---\n"
