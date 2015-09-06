@@ -70,12 +70,6 @@ sudo chkconfig --add elasticsearch
 
 # curl -X GET http://127.0.0.1:9200/
 
-# echo -e "\n--- Opening port 9200 (for http) and 9300 (for tcp) ---\n"
-# sudo iptables -L -n
-# sudo iptables -A INPUT -p tcp -m tcp --dport 9200 -j ACCEPT
-# sudo iptables -A INPUT -p tcp -m tcp --dport 9300 -j ACCEPT
-# sudo service iptables save
-
 # Install Elasticsearch `head` plugin
 # sudo /usr/local/share/elasticsearch/bin/plugin -install mobz/elasticsearch-head
 
