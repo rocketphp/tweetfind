@@ -32,7 +32,7 @@
                                 <div id="loadingimg" class="small-3 columns">
                                     <img src="http://dev.cloudcell.co.uk/bin/loading.gif"/>
                                 </div>
-                                <div class="view-all small-4 columns">
+                                <div class="view-all small-4 columns" style="font-size: 0.9em;">
                                     &rsaquo; <a href="/api/tweets" target="_blank" alt="View all tweets">View all tweets</a>
                                 </div>
                             </div>
